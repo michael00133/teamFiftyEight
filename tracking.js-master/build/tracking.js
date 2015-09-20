@@ -2234,8 +2234,8 @@
     var greenthreshold = 70,
 	bluethreshold=25,
       dx = r - 255,
-      dy = g - 0,
-      dz = b - 0;
+      dy = g - 14,
+      dz = b - 110;
 
     if ((r - g) >= greenthreshold && (r - b) >= bluethreshold) {
       return true;
@@ -2243,11 +2243,11 @@
     return dx * dx + dy * dy + dz * dz < 15000;
   });
   tracking.ColorTracker.registerColor('green', function(r, g, b) {
-    var redthreshold = 60,
-		bluethreshold=40,
-      dx = r - 0,
-      dy = g - 180,
-      dz = b - 0;
+    var redthreshold = 30,
+		bluethreshold=60,
+      dx = r - 83,
+      dy = g - 240,
+      dz = b - 26;
 
     if ((g-r) >= redthreshold && (g-b) >= bluethreshold) {
       return true;
