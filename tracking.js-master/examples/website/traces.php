@@ -40,7 +40,7 @@
 <body>
 <?php include "navbar.php"; ?>
 <div class="wrapper" id="tracespage">
-  
+
     <div style="margin: auto; padding: 15px; height: 600px; width: 800px; background-color: #88d5f1;">
         <video id="video" style="left:0; right:0; margin: 0 auto;" preload autoplay loop muted></video>
         <canvas id="canvas_img" style="left:0; right:0; margin: 0 auto;"  width="800" height="600"></canvas>
@@ -52,7 +52,7 @@
     <div style="text-align: center">
         <br><br><br>
         <button id="next-button" onclick="projectLetter()">Let's try writing 0!</button>
-        <p><button id="next-button" onclick="computeScore()">Let's check!</button></p>
+        <p><button id="check-button" onclick="computeScore()">Let's check!</button></p>
     </div>
 
   <script>
@@ -61,6 +61,7 @@
     var idx = 0;
     var image = new Image();
     var button = document.getElementById('next-button');
+    var button2 = document.getElementById('check-button');
 
     var video = document.getElementById('video');
     var canvas_draw = document.getElementById('canvas_draw');
@@ -92,6 +93,7 @@
       console.log(img_pixel);
       idx++;
       button.innerHTML = "Let's try writing "+String(idx)+"!";
+      button2.innerHTML = "Let's check!";
       clear(context_draw);
     }
 
@@ -111,9 +113,9 @@
         }
 
         if (sum > draw_pixel.length/2){
-          console.log("yay");
+          button2.innerHTML = "Let's try one more time!";
         }else{
-          console.log("noo");
+          button2.innerHTML = "You got it!";
         }
       }
     }
