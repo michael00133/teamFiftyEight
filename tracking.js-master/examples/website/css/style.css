@@ -131,7 +131,6 @@ html, body {
     font-family: "Frente";
     color: #27a9e1;
     padding-left: 10px;
-    
 }
 a.headinglinks:hover{
     color: #88d5f1;
@@ -147,7 +146,6 @@ a.headinglinks:hover{
     font-size: 25px;
     padding-top: 50px;
     padding-bottom: 20px;
-
 }
 .footerelements {
     text-align: center;
@@ -189,4 +187,10 @@ a.headinglinks:hover{
     display: inline-block;
     text-align: center;
 }  
-
+#TeamPhoto_nice, #TeamPhoto_jumping {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 75px;
+    margin-bottom: 25px;
+}
