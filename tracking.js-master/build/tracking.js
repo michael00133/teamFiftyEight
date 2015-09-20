@@ -2243,8 +2243,8 @@
     return dx * dx + dy * dy + dz * dz < 15000;
   });
   tracking.ColorTracker.registerColor('green', function(r, g, b) {
-    var redthreshold = 70,
-		bluethreshold=50,
+    var redthreshold = 60,
+		bluethreshold=30,
       dx = r - 0,
       dy = g - 180,
       dz = b - 0;
@@ -2255,7 +2255,7 @@
     return dx * dx + dy * dy + dz * dz < 15000;
   });
   tracking.ColorTracker.registerColor('blue', function(r, g, b) {
-    var threshold = 100;
+    var threshold = 50;
       dx = r - 0,
       dy = g - 0,
       dz = b - 255;
