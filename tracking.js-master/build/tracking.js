@@ -2232,7 +2232,7 @@
 
   tracking.ColorTracker.registerColor('red', function(r, g, b) {
     var greenthreshold = 90,
-	bluethreshold=25,
+	bluethreshold=35,
       dx = r - 255,
       dy = g - 14,
       dz = b - 110;
