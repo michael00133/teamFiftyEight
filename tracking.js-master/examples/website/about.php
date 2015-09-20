@@ -8,13 +8,17 @@
 <body>
 <?php include "navbar.php"; ?>
 <div class="wrapper">
+<video id="DemoVideo" autoplay>
+  <source src="DemoVideo.mp4" type="video/mp4">
+    <source src="DemoVideo.mp4" type="video/ogg">
+</video>
 <h1 class="heading">Our Team</h1>
 <div class="banner">
-    <img class="bannerimg" src="images/TeamPhoto.png" alt="TeamLHHEM">
+    <img class="bannerimg" src="images/TeamPhoto.png" alt="Team LHHEM">
 </div>
 <div class="banner">
-    <img id="TeamPhoto_nice" src="images/TeamPhoto_nice.jpg" alt="Team Photo Nice">
-    <img id="TeamPhoto_jumping" src="images/TeamPhoto_jumping.jpeg" alt="Team Photo Jumping">
+    <img id="TeamPhotoSS" src="images/TeamPhoto2.png" alt="Team Photos">
+</div>
 </div>
 <?php include "footer.php"; ?>
 </body>
