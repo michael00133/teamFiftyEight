@@ -19,12 +19,13 @@
         $("#banner_notxt").hover(function(){
             $("#banner_txt").animate({
                 left: '0',
-                duration: 'slow' ,
+                duration: '100000' ,
                 
             });
         });
     });
 </script> 
+<h1 class="heading">How to Get Started</h1>
 <div class="howtoimg">
     <div id="stepone">
         <img id="StepOneImg" src="images/HowTo_StepOne.png" alt="HowToStepOne" />

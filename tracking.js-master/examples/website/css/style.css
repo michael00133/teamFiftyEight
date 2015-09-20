@@ -74,38 +74,35 @@ html, body {
     text-align: center;
     display: inline-block;
     margin: auto;
-}
-.bannerimg {
-    width: 75%;
-    text-align: center;
-    display: inline-block;
-    margin: auto;
-}
-#banner_txt, #banner_notxt {
-    width: 100%;
-    min-width: 600px;
+    
 }
 #banner_notxt {
     width: 100%;
+    min-width: 1000px
     margin: auto;
     text-align: center;
 }
 #banner_txt {
-    width: 35.2668%;
-    top: 150px;
+    width: 35%;
+    top: 200px;
     left: -100%;
     position: absolute;
+}
+.heading {
+    font-size: 50px;
+    text-align: center;
 }
 .header {
     top: 0;
     left: 0;
     right: 0;
     background-color: white;
-    padding-left: 25px;
+    padding-left: 50px;
     height: 150px;
     font-family: "Frente";
-    min-width: 600px;
-    margin-bottom: 15px;
+    min-width: 1000px;
+    padding-top: 25px;
+    margin-bottom: 25px;
 }
 .logo {
     width: 15%;
@@ -136,7 +133,7 @@ a.headinglinks:hover{
 .footer {
     text-align: center;
     color: white;
-    background-color: #27a9e1;
+    background-color: #88d5f1;
     bottom: 0;
     left: 0;
     right: 0;
@@ -162,21 +159,27 @@ a.headinglinks:hover{
 }
 .howtoimg {
     width: 100%;
-    margin: 25px;
-}
-#stepone, #steptwo, #stepthree, #stepfour {
-    width: 20%;
+    margin: auto;
     display: inline-block;
     text-align: center;
-    margin: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    min-width: 600px;
+    padding-bottom: 50px;
+}
+#stepone, #steptwo, #stepthree, #stepfour {
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 #StepOneImg, #StepTwoImg, #StepThreeImg, #StepFourImg {
     width: 100%;
     display: inline-block;
     text-align: center;
-    margin: 25px;
 }
-#StepOneTxt, #StepOneTxt, #StepOneTxt, #StepOneTxt {
+#StepOneTxt, #StepTwoTxt, #StepThreeTxt, #StepFourTxt {
     width: 100%;
     display: inline-block;
     text-align: center;
