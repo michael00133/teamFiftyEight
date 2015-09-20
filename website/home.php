@@ -13,11 +13,13 @@
     <img id="banner_notxt" src="images/banner_noblue.jpg" alt="Banner" />
     <img id="banner_txt" src="images/banner_texts.png" alt="BannerText" />
 </a>
+</div>
 <script> 
     $(document).ready(function(){
         $("#banner_notxt").hover(function(){
             $("#banner_txt").animate({
-                left: '100px'
+                left: '0',
+                duration: 'slow' ,
                 
             });
         });
