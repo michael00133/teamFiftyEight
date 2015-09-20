@@ -65,6 +65,21 @@ html, body {
     left: 0;
     right: 0;
 }
+.text {
+    padding: 25px;
+}
+.banner {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+.bannerimg {
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
 #banner_txt, #banner_notxt {
     width: 100%;
     min-width: 600px;
@@ -120,7 +135,7 @@ a.headinglinks:hover{
 .footer {
     text-align: center;
     color: white;
-    background-color: none;
+    background-color: #27a9e1;
     bottom: 0;
     left: 0;
     right: 0;
@@ -132,7 +147,7 @@ a.headinglinks:hover{
 }
 .footerelements {
     text-align: center;
-    color: #27a9e1;
+    color: white;
     background-color: none;
     bottom: 0;
     height: 50px;
