@@ -74,7 +74,7 @@
     var drawSegments = [[]];
     var segment = 0;
 
-    var tracker = new tracking.ColorTracker(['green', 'red']);
+    var tracker = new tracking.ColorTracker(['red', 'green']);
 
     function projectLetter() {
         var image = document.getElementById('image');
@@ -97,10 +97,10 @@
       }
 
       event.data.forEach(function(rect) {
-        if (rect.color === 'green') {
+        if (rect.color === 'red') {
           draw(rect);
         }
-        else if (rect.color === 'red') {
+        else if (rect.color === 'green') {
           erase(rect);
         }
       });
