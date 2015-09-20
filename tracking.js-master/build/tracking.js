@@ -1925,7 +1925,7 @@
    * @default 20
    * @type {number}
    */
-  tracking.ColorTracker.prototype.minDimension = 20;
+  tracking.ColorTracker.prototype.minDimension = 7;
 
   /**
    * Holds the maximum dimension to classify a rectangle.
@@ -2231,26 +2231,28 @@
   //===================
 
   tracking.ColorTracker.registerColor('red', function(r, g, b) {
-    var threshold = 100;
+    var greenthreshold = 100,
+	bluethreshold=25,
       dx = r - 255,
       dy = g - 0,
       dz = b - 0;
 
-    if ((r - g) >= threshold && (r - b) >= threshold) {
+    if ((r - g) >= greenthreshold && (r - b) >= bluethreshold) {
       return true;
     }
-    //return dx * dx + dy * dy + dz * dz < 6400;
+    return dx * dx + dy * dy + dz * dz < 15000;
   });
   tracking.ColorTracker.registerColor('green', function(r, g, b) {
-    var threshold = 50;
+    var redthreshold = 50,
+		bluethreshold=25,
       dx = r - 0,
-      dy = g - 255,
+      dy = g - 180,
       dz = b - 0;
 
-    if ((g-r) >= threshold && (g-b) >= threshold) {
+    if ((g-r) >= redthreshold && (g-b) >= bluethreshold) {
       return true;
     }
-    return dx * dx + dy * dy + dz * dz < 6400;
+    return dx * dx + dy * dy + dz * dz < 15000;
   });
   tracking.ColorTracker.registerColor('blue', function(r, g, b) {
     var threshold = 50;
