@@ -15,7 +15,6 @@
       height: 600px;
       position: absolute;
       width: 800px;
-      left: 50%;
     }
 
 
@@ -36,9 +35,9 @@
 <?php include "navbar.php"; ?>
 <div class="wrapper">
 
-    <div>
-        <video id="video" preload autoplay loop muted></video>
-        <canvas id="canvas" width="800" height="600"></canvas>
+    <div style="height: 800px;">
+        <video id="video" style="left:0; right:0; margin: 0 auto;" preload autoplay loop muted></video>
+        <canvas id="canvas" style="left:0; right:0; margin: 0 auto;"  width="800" height="600"></canvas>
     </div>
 
 
