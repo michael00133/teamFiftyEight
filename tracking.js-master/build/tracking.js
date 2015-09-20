@@ -1925,7 +1925,7 @@
    * @default 20
    * @type {number}
    */
-  tracking.ColorTracker.prototype.minDimension = 7;
+  tracking.ColorTracker.prototype.minDimension = 5;
 
   /**
    * Holds the maximum dimension to classify a rectangle.
@@ -2231,7 +2231,7 @@
   //===================
 
   tracking.ColorTracker.registerColor('red', function(r, g, b) {
-    var greenthreshold = 100,
+    var greenthreshold = 70,
 	bluethreshold=25,
       dx = r - 255,
       dy = g - 0,
@@ -2244,7 +2244,7 @@
   });
   tracking.ColorTracker.registerColor('green', function(r, g, b) {
     var redthreshold = 60,
-		bluethreshold=30,
+		bluethreshold=40,
       dx = r - 0,
       dy = g - 180,
       dz = b - 0;
