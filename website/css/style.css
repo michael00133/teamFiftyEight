@@ -65,21 +65,21 @@ html, body {
     left: 0;
     right: 0;
 }
-#bannerimg {
-    width: 100%
+#banner_txt, #banner_notxt {
+    width: 100%;
+    min-width: 600px;
 }
-
-#bannertxt {
-    position: fixed;
+#banner_notxt {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#banner_txt {
+    width: 100%;
     top: 150px;
-    right: 100%;
-    z-index: 1;
+    left: -100%;
+    position: absolute;
 }
-#bannerimg:hover #bannertxt {
-    right: 0;
-    left: 0;
-}
-
 .header {
     top: 0;
     left: 0;

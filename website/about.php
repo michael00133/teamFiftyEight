@@ -9,8 +9,7 @@
 <?php include "navbar.php"; ?>
 <div class="wrapper">
 <div class="banner">
-    <img id="bannerimg" src="images/banner_noblue.png" alt="TraceMeHomeBanner">
-    <img id="bannertxt" src="images/logo_orange.png" alt="BannerText">
+    <img class="bannerimg" src="images/TeamPhoto.png" alt="TeamLHHEM">
 </div>
 <div>
     <h1>Our Team</h1>
