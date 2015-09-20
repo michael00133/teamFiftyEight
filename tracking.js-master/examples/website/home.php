@@ -25,17 +25,10 @@
         });
     });
 </script> 
-<div class="howto">
-    <div id="stepone">
-        <img class="howtoimg" src="images/HowTo_StepOne.png" alt="HowToStepOne" />
-        <div class="howtotxt">Step 1: Choose the lesson.</div>
-
-    </div>
-    <div id="steptwo">
-        <div class="howtoimg">
-            <img src="images/HowTo_StepOne.png" alt="HowToStepOne" />
-        </div>
-    </div>
+<div class="howtoimg">
+    <img id="imgstepone" src="images/HowTo_StepOne.png" alt="HowToStepOne" />
+    <img id="imgsteptwo" src="images/HowTo_StepTwo.png" alt="HowToStepTwo" />
+</div>
     
 </div>
     

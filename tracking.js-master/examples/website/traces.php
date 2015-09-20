@@ -15,7 +15,6 @@
       height: 600px;
       position: absolute;
       width: 800px;
-      left: 50%;
     }
 
 
@@ -36,9 +35,9 @@
 <?php include "navbar.php"; ?>
 <div class="wrapper">
 
-    <div>
-        <video id="video" preload autoplay loop muted></video>
-        <canvas id="canvas" width="800" height="600"></canvas>
+    <div style="margin: auto; padding: 15px; height: 600px; width: 800px; background-color: #27A9E1;">
+        <video id="video" style="left:0; right:0; margin: 0 auto;" preload autoplay loop muted></video>
+        <canvas id="canvas" style="left:0; right:0; margin: 0 auto;"  width="800" height="600"></canvas>
     </div>
 
 
@@ -89,7 +88,7 @@
 
       (function loop() {
           for (var i = 0, len = drawSegments.length; i < len; i++) {
-              drawSpline(context, drawSegments[i], 0.5, false);
+              drawSpline(context, drawSegments[i], 0.3, false);
           }
 
           drawSegments = [drawSegments[drawSegments.length - 1]];
@@ -101,12 +100,6 @@
   </script>
 
 
-<div> 
-    <h1>Traces by Popularity</h1>
-</div>
-<div>
-    <h1>Traces by Topic</h1>
-</div>
 <?php include "footer.php"; ?>
 </body>
 </html>
