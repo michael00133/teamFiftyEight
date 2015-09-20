@@ -2236,10 +2236,12 @@
       dx = r - 255,
       dy = g - 14,
       dz = b - 110;
-
+	
     if ((r - g) >= greenthreshold && (r - b) >= bluethreshold) {
       return true;
     }
+	
+	
     return dx * dx + dy * dy + dz * dz < 1000;
   });
   tracking.ColorTracker.registerColor('green', function(r, g, b) {
@@ -2248,10 +2250,11 @@
       dx = r - 83,
       dy = g - 240,
       dz = b - 26;
-
+	
     if ((g-r) >= redthreshold && (g-b) >= bluethreshold) {
       return true;
     }
+	
     return dx * dx + dy * dy + dz * dz < 1000;
   });
   tracking.ColorTracker.registerColor('blue', function(r, g, b) {

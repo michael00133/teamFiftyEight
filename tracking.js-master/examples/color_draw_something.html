@@ -52,7 +52,7 @@
       var drawSegments = [[]];
       var segment = 0;
 
-      var tracker = new tracking.ColorTracker(['green', 'red']);
+      var tracker = new tracking.ColorTracker(['red', 'green']);
 
       tracking.track('#video', tracker, { camera: true });
 
@@ -70,10 +70,10 @@
         }
 
         event.data.forEach(function(rect) {
-          if (rect.color === 'green') {
+          if (rect.color === 'red') {
             draw(rect);
           }
-          else if (rect.color === 'red') {
+          else if (rect.color === 'green') {
             erase(rect);
           } 
         });
