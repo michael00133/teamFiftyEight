@@ -47,6 +47,8 @@
       var canvas = document.getElementById('canvas');
       var context = canvas.getContext('2d');
 
+     
+	  
       var drawSegments = [[]];
       var segment = 0;
 
@@ -88,7 +90,9 @@
 
       (function loop() {
           for (var i = 0, len = drawSegments.length; i < len; i++) {
-              drawSpline(context, drawSegments[i], 0.5, false);
+			  
+              drawSpline(context, drawSegments[i], 0.3, false);
+			  
           }
 
           drawSegments = [drawSegments[drawSegments.length - 1]];
