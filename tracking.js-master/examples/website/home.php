@@ -13,7 +13,6 @@
     <img id="banner_notxt" src="images/banner_noblue.jpg" alt="Banner" />
     <img id="banner_txt" src="images/banner_texts.png" alt="BannerText" />
 </a>
-
 <script> 
     $(document).ready(function(){
         $("#banner_notxt").hover(function(){
@@ -47,6 +46,12 @@
         <h1 id="StepFourTxt">Step Four:</h1>
         <h1 id="StepFourTxt">Trace dotted lines.</h1>
     </div>
+</div>
+
+<div class="wide">
+    <div class="trace_butt"> </div>
+    <img id="trace_button" src="images/trace_button.png" alt="Start Tracing!"/>
+    <div class="trace_butt"> </div>
 </div>
     
 </div>
