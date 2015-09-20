@@ -65,6 +65,7 @@ html, body {
 .wrapper {
     left: 0;
     right: 0;
+    margin-bottom: 50px;
 }
 .text {
     padding: 25px;
@@ -75,6 +76,9 @@ html, body {
     display: inline-block;
     margin: auto;
     
+}
+.bannerimg {
+    width: 75%;
 }
 #banner_notxt {
     width: 100%;
@@ -91,6 +95,8 @@ html, body {
 .heading {
     font-size: 50px;
     text-align: center;
+    padding-top: 75px;
+    padding-bottom: 25px;
 }
 .header {
     top: 0;
@@ -139,7 +145,7 @@ a.headinglinks:hover{
     right: 0;
     font-family: "Frente";
     font-size: 25px;
-    padding-top: 25px;
+    padding-top: 50px;
     padding-bottom: 20px;
 
 }
@@ -163,7 +169,6 @@ a.headinglinks:hover{
     display: inline-block;
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 25px; 
     min-width: 600px;
     padding-bottom: 50px;
 }
@@ -171,8 +176,8 @@ a.headinglinks:hover{
     width: 15%;
     display: inline-block;
     text-align: center;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 #StepOneImg, #StepTwoImg, #StepThreeImg, #StepFourImg {
     width: 100%;

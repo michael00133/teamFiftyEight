@@ -9,7 +9,7 @@
 <?php include "navbar.php"; ?>
 <div class="wrapper">
 <div class="text">
-    <h1>Our Team</h1>
+    <h1 class="heading">Our Team</h1>
 </div>
 <div class="banner">
     <img class="bannerimg" src="images/TeamPhoto.png" alt="TeamLHHEM">
