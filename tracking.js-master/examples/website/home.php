@@ -13,7 +13,7 @@
     <img id="banner_notxt" src="images/banner_noblue.jpg" alt="Banner" />
     <img id="banner_txt" src="images/banner_texts.png" alt="BannerText" />
 </a>
-</div>
+
 <script> 
     $(document).ready(function(){
         $("#banner_notxt").hover(function(){
@@ -25,6 +25,15 @@
         });
     });
 </script> 
+<div class="howtoimg">
+    <img id="imgstepone" src="images/HowTo_StepOne.png" alt="HowToStepOne" />
+    <img id="imgsteptwo" src="images/HowTo_StepTwo.png" alt="HowToStepTwo" />
+</div>
+    
+</div>
+    
+    
+</div>
 <?php include "footer.php"; ?>
 </body>
 </html>

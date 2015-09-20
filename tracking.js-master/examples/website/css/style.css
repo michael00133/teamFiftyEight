@@ -52,8 +52,9 @@
     font-style: italic;
 }
 * {
-    font-family: "Quicksand_Regular";
-    color: black;
+    font-family: "Frente";
+    color: #27a9e1;
+    
 }
 html, body {
     width:100%;
@@ -64,6 +65,21 @@ html, body {
 .wrapper {
     left: 0;
     right: 0;
+}
+.text {
+    padding: 25px;
+}
+.banner {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+.bannerimg {
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
 }
 #banner_txt, #banner_notxt {
     width: 100%;
@@ -120,7 +136,7 @@ a.headinglinks:hover{
 .footer {
     text-align: center;
     color: white;
-    background-color: none;
+    background-color: #27a9e1;
     bottom: 0;
     left: 0;
     right: 0;
@@ -132,7 +148,7 @@ a.headinglinks:hover{
 }
 .footerelements {
     text-align: center;
-    color: #27a9e1;
+    color: white;
     background-color: none;
     bottom: 0;
     height: 50px;
@@ -144,3 +160,12 @@ a.headinglinks:hover{
 #footerdescriptor {
     letter-spacing: 5px;
 }
+.howtoimg {
+    width: 100%;
+}
+#imgstepone, #imgstepone {
+    width: 25%;
+    
+}
+
+
