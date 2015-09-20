@@ -242,7 +242,12 @@ a {
 }
 #next-button {
     font-size: 50px;
-    font-family: "Frente"
+    font-family: "Frente";
+    color: white;
+    background-color: #88d5f1;
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 25px;
 }
 #TeamPhotoSS {
     width: 75%;

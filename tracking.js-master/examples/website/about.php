@@ -13,18 +13,13 @@
   <source src="images/DemoVideo.mp4" type="video/mp4">
   mp4 not suppored
 </video>
-<<<<<<< HEAD
 
 <script>
 	var vid = document.getElementById("DemoVideo");
 	vid.playbackRate = 0.7;
 </script>
-
-<h1 class="heading">Our Team</h1>
-=======
 <h1 class="heading">Meet the Trace Meesters</h1>
     <p id="MeettheTraceMeesters">Our diverse backgrounds played a signitifant role in the ideation process. The designers Hope and Lily were interested in designing an experience for the users, the electrical engineers Elias and Michael were interested in exploring computer vision and building hardware, the computer scientist Heejung was interested in building a software interface, and together we were interested in creating an integration of hardware, software, and physical experience.</p>
->>>>>>> 3a5db97660a753006c61dff73ccd09ddf3a4217d
 <div class="banner">
     <img class="bannerimg" src="images/TeamPhoto.png" alt="Team LHHEM">
 </div>
