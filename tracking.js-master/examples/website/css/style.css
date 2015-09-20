@@ -162,10 +162,23 @@ a.headinglinks:hover{
 }
 .howtoimg {
     width: 100%;
+    margin: 25px;
 }
-#imgstepone, #imgstepone {
-    width: 25%;
-    
+#stepone, #steptwo, #stepthree, #stepfour {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
 }
-
+#StepOneImg, #StepTwoImg, #StepThreeImg, #StepFourImg {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+}
+#StepOneTxt, #StepOneTxt, #StepOneTxt, #StepOneTxt {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}  
 

@@ -26,8 +26,26 @@
     });
 </script> 
 <div class="howtoimg">
-    <img id="imgstepone" src="images/HowTo_StepOne.png" alt="HowToStepOne" />
-    <img id="imgsteptwo" src="images/HowTo_StepTwo.png" alt="HowToStepTwo" />
+    <div id="stepone">
+        <img id="StepOneImg" src="images/HowTo_StepOne.png" alt="HowToStepOne" />
+        <h1 id="StepOneTxt">Step One:</h1>
+        <h1 id="StepOneTxt">Choose a lesson.</h1>
+    </div>
+    <div id="steptwo">
+        <img id="StepTwoImg" src="images/HowTo_StepTwo.png" alt="HowToStepTwo" />
+        <h1 id="StepTwoTxt">Step Two: </h1>
+        <h1 id="StepTwoTxt">Start TRACEME.</h1>
+    </div>
+    <div id="stepthree">
+        <img id="StepThreeImg" src="images/HowTo_StepThree.png" alt="HowToStepThree" />
+        <h1 id="StepThreeTxt">Step Three:</h1>
+        <h1 id="StepThreeTxt">Turn on the GLOVEME.</h1>
+    </div>
+    <div id="stepfour">
+        <img id="StepFourImg" src="images/HowTo_StepFour.png" alt="HowToStepFour" />
+        <h1 id="StepFourTxt">Step Four:</h1>
+        <h1 id="StepFourTxt">Trace the dotted lines.</h1>
+    </div>
 </div>
     
 </div>
