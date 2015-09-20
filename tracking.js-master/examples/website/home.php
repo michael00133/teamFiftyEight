@@ -40,12 +40,12 @@
     <div id="stepthree">
         <img id="StepThreeImg" src="images/HowTo_StepThree.png" alt="HowToStepThree" />
         <h1 id="StepThreeTxt">Step Three:</h1>
-        <h1 id="StepThreeTxt">Turn on the GLOVEME.</h1>
+        <h1 id="StepThreeTxt">Turn on GLOVEME.</h1>
     </div>
     <div id="stepfour">
         <img id="StepFourImg" src="images/HowTo_StepFour.png" alt="HowToStepFour" />
         <h1 id="StepFourTxt">Step Four:</h1>
-        <h1 id="StepFourTxt">Trace the dotted lines.</h1>
+        <h1 id="StepFourTxt">Trace dotted lines.</h1>
     </div>
 </div>
     
