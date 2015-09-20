@@ -114,7 +114,7 @@
           sum += Math.pow((draw_pixel[j]-img_pixel[j]),2);
         }
 
-        if (sum > 30){
+        if (sum > draw_pixel.length/2){
           console.log("yay");
         }else{
           console.log("noo");
