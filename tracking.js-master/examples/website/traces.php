@@ -35,7 +35,7 @@
 <?php include "navbar.php"; ?>
 <div class="wrapper">
 
-    <div style="margin: auto; padding: 15px; height: 600px; width: 800px; background-color: #27A9E1;">
+    <div style="margin: auto; margin-bottom: 15px; padding: 15px; height: 600px; width: 800px; background-color: #27A9E1;">
         <video id="video" style="left:0; right:0; margin: 0 auto;" preload autoplay loop muted></video>
         <canvas id="canvas" style="left:0; right:0; margin: 0 auto;"  width="800" height="600"></canvas>
     </div>
