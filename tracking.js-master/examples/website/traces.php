@@ -81,7 +81,8 @@
         var button = document.getElementById('next-button');
         image.style.visibility="visible"
         image.src = "images/"+imgList[idx]+".png";
-        idx++;
+        if(idx < 9)
+        	idx++;
         button.innerHTML = "Let's try writing "+String(idx)+"!";
         clear();
       }
