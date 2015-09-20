@@ -112,16 +112,10 @@
           sum += Math.pow((draw_pixel[j]-img_pixel[j]),2);
         }
 
-        if (sum > draw_pixel.length/2){
-<<<<<<< HEAD
-          console.log("yay");
-	  console.log(sum);
-	  console.log(draw_pixel.length/2);
-=======
+        if (sum < draw_pixel.length/2){
           button2.innerHTML = "Let's try one more time!";
->>>>>>> 6b1cfd6d53ef12ba7d1580eadb2234a113ed35f8
         }else{
-          button2.innerHTML = "You got it!";
+          button2.innerHTML = "You tried your best!";
         }
       }
     }
