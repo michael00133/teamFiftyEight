@@ -2231,7 +2231,7 @@
   //===================
 
   tracking.ColorTracker.registerColor('red', function(r, g, b) {
-    var greenthreshold = 50,
+    var greenthreshold = 90,
 	bluethreshold=25,
       dx = r - 255,
       dy = g - 14,
