@@ -13,7 +13,7 @@
     <img id="banner_notxt" src="images/banner_noblue.jpg" alt="Banner" />
     <img id="banner_txt" src="images/banner_texts.png" alt="BannerText" />
 </a>
-
+    
 <script> 
     $(document).ready(function(){
         $("#banner_notxt").hover(function(){
@@ -48,6 +48,23 @@
         <h1 id="StepFourTxt">Trace dotted lines.</h1>
     </div>
 </div>
+
+<div class="wide" style="text-align: center">
+    <a href="traces.php"><img style="text-align: center" id="trace_button" src="images/trace_button.png" alt="Start Tracing!"/></a>
+</div>
+    
+<script> 
+    $(document).ready(function(){
+        $("#trace_button").hover(function(){
+            $("trace_button").animate({
+                left: '0',
+                duration: '100000' ,
+                
+            });
+        });
+    });
+</script> 
+    
     
 </div>
     

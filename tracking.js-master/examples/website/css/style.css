@@ -120,8 +120,26 @@ html, body {
     vertical-align: middle;
     margin-right: 10px;
 }
+.button {
+    width: 100%;
+}
+#trace_button {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    clear: both;
+    
+}
+.tracebutt {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
 .headinglinks {
     width: 10%;
+    height: 53%;
     display: inline-block;
     vertical-align: bottom;
     text-align: center;
@@ -130,10 +148,34 @@ html, body {
     color: white;
     font-family: "Frente";
     color: #27a9e1;
-    padding-left: 10px;
+    padding-left: 25px;
+    padding-top: 25px;
+    
 }
 a.headinglinks:hover{
     color: #88d5f1;
+}
+.wide {
+    width: 100%
+}
+#traceslink {
+    border-bottom-style: inherit;
+    text-decoration: none;
+}
+#tracesdiv {
+    border: solid;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+#tracesdiv:hover *{
+    color: white;
+    background-color: #88d5f1;
+    border-color: #88d5f1
+}
+a {
+    text-decoration: none;
 }
 .footer {
     text-align: center;
@@ -207,4 +249,11 @@ a.headinglinks:hover{
 }
 #DemoVideo {
     width: 100%;
+}
+#MeettheTraceMeesters {
+    font-size: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-family: "Quicksand_Light";
+    text-align: justify;
 }
