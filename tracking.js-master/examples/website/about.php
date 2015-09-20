@@ -8,10 +8,17 @@
 <body>
 <?php include "navbar.php"; ?>
 <div class="wrapper">
-<video id="DemoVideo" autoplay>
-  <source src="DemoVideo.mp4" type="video/mp4">
-    <source src="DemoVideo.mp4" type="video/ogg">
+
+<video id="DemoVideo" autoplay loop>
+  <source src="images/DemoVideo.mp4" type="video/mp4">
+  mp4 not suppored
 </video>
+
+<script>
+	var vid = document.getElementById("DemoVideo");
+	vid.playbackRate = 0.7;
+</script>
+
 <h1 class="heading">Our Team</h1>
 <div class="banner">
     <img class="bannerimg" src="images/TeamPhoto.png" alt="Team LHHEM">
