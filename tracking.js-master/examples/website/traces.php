@@ -112,6 +112,8 @@
 
         if (sum > draw_pixel.length/2){
           console.log("yay");
+	  console.log(sum);
+	  console.log(draw_pixel.length/2);
         }else{
           console.log("noo");
         }
