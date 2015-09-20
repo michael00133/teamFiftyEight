@@ -15,18 +15,9 @@
       height: 300px;
       position: absolute;
       width: 400px;
-      padding-top: 66px;
+   
     }
-    .draw-frame {
-      background: url(assets/draw_frame.png);
-      width: 400px;
-      height: 414px;
-      border: 1px solid #ccc;
-      top: 50%;
-      left: 50%;
-      position: absolute;
-      margin: -207px 0 0 -200px;
-    }
+
 
     canvas, video {
       -moz-transform: scale(-1, 1);
@@ -59,7 +50,7 @@
       var drawSegments = [[]];
       var segment = 0;
 
-      var tracker = new tracking.ColorTracker(['red', 'green']);
+      var tracker = new tracking.ColorTracker(['green', 'red']);
 
       tracking.track('#video', tracker, { camera: true });
 
@@ -73,10 +64,10 @@
         }
 
         event.data.forEach(function(rect) {
-          if (rect.color === 'red') {
+          if (rect.color === 'green') {
             draw(rect);
           }
-          else if (rect.color === 'green') {
+          else if (rect.color === 'red') {
             erase(rect);
           }
         });
