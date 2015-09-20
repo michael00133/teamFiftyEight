@@ -48,17 +48,18 @@
 </head>
 <body>
 <?php include "navbar.php"; ?>
-<div class="wrapper">
+<div class="wrapper" id="tracespage">
 
 
-    <div style="margin: auto; padding: 15px; height: 600px; width: 800px; background-color: #27A9E1;">
+    <div style="margin: auto; padding: 15px; height: 600px; width: 800px; background-color: #88d5f1;">
         <video id="video" style="left:0; right:0; margin: 0 auto;" preload autoplay loop muted></video>
         <canvas id="canvas" style="left:0; right:0; margin: 0 auto;"  width="800" height="600"></canvas>
        <div style="height: 600px; width: 800px;"> <img id="image" style="width:300px; height:350px; visibility: hidden;" src="images/0.png"></img></div>
     </div>
 
     <div style="text-align: center">
-      <button id="next-button" onclick="projectLetter()">Let's try writing 0!</button>
+        <br><br><br>
+        <button id="next-button" onclick="projectLetter()">Let's try writing 0!</button>
     </div>
 
   <script>
@@ -136,7 +137,7 @@
 
   </script>
 
-
+</div>
 <?php include "footer.php"; ?>
 </body>
 </html>
