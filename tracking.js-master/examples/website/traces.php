@@ -48,7 +48,7 @@
         <img id="image" style="width:300px; height:350px; visibility: hidden;" src="images/0.png"></img>
     </div>
 
-    <img id="image" style="width:300px; height:350px; visibility: hidden;" src="images/0.png"></img>
+    <img id="image" style="width:300px; margin-left: 50px; height:350px; visibility: hidden;" src="images/0.png"></img>
 
     <div style="text-align: center">
       <button id="next-button" onclick="projectLetter()">Let's try writing 0!</button>
