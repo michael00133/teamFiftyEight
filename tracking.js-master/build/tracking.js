@@ -2231,7 +2231,7 @@
   //===================
 
   tracking.ColorTracker.registerColor('red', function(r, g, b) {
-    var greenthreshold = 90,
+    var greenthreshold = 110,
 	bluethreshold=35,
       dx = r - 255,
       dy = g - 14,
@@ -2245,8 +2245,8 @@
     return dx * dx + dy * dy + dz * dz < 1000;
   });
   tracking.ColorTracker.registerColor('green', function(r, g, b) {
-    var redthreshold = 30,
-		bluethreshold=60,
+    var redthreshold = 25,
+		bluethreshold=55,
       dx = r - 83,
       dy = g - 240,
       dz = b - 26;
