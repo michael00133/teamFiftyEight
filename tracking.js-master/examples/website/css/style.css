@@ -271,3 +271,16 @@ a {
     font-family: "Quicksand_Light";
     text-align: justify;
 }
+.paragraph {
+    font-size: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-family: "Quicksand_Light";
+    text-align: justify;
+}
+.triad {
+    width: 90%;
+}
+#BlackboardBanner {
+    width: 100%;
+}

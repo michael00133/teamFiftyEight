@@ -21,7 +21,7 @@
         <img class="triad" style="text-align: center" src="images/Blackboard1.JPG" alt="Banner" />
     </div>
     <div id="steptwo">
-        <img class="triad" style="text-align: center" src="images/Blackboard2.JPG" alt="Banner" />
+        <img class="triad" style="text-align: center" src="images/Blackboard2.jpg" alt="Banner" />
     </div>
     <div id="stepthree">
         <img class="triad" style="text-align: center" src="images/Blackboard3.JPG" alt="Banner" />
@@ -37,7 +37,7 @@
         <img class="triad" style="text-align: center" src="images/Hardware1.JPG" alt="Banner" />
     </div>
     <div id="steptwo">
-        <img class="triad" style="text-align: center" src="images/Hardware2.JPG" alt="Banner" />
+        <img class="triad" style="text-align: center" src="images/Hardware2.jpg" alt="Banner" />
     </div>
     <div id="stepthree">
         <img class="triad" style="text-align: center" src="images/Hardware3.JPG" alt="Banner" />
